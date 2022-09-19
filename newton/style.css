@@ -23,6 +23,10 @@
   display: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 html, body {
   font-family: 'CanaroLight';
   height: 100%;
