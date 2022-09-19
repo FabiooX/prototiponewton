@@ -1,0 +1,376 @@
+@font-face {
+  font-family: 'Canaro';
+  src: url('assets/fonts/Canaro-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CanaroLight';
+  src: url('assets/fonts/Canaro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe';
+  src: url('assets/fonts/segoe-ui.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hide {
+  display: none;
+}
+
+html, body {
+  font-family: 'CanaroLight';
+  height: 100%;
+  width: 100%;
+  color: #222;
+}
+
+.navbar {
+  font-family: 'Segoe';
+  padding: .8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  filter: opacity(50%);
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(65%);
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h2 {
+  text-shadow: 1px 1px 15px #000;
+  font-family: 'Canaro';
+}
+
+.carousel-caption h3 {
+font-size: 100%;
+font-weight: 500;
+text-shadow: 1px 1px 10px #000;
+padding-bottom: 1rem;
+}
+
+.btn-primary {
+background-color: #6648b1;
+border: 1px solid #6648b1;
+}
+.btn-primary:hover {
+  background-color: #6648b1;
+  border: 1px solid #563d75;
+}
+
+/* Area quem somos*/
+#quemsomos{
+  color: #575756;
+  font-family: 'Canaro';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#quemsomostexto p{
+  font-family: 'Segoe';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Area nossa equipe*/
+#nossaequipe{
+  color: #575756;
+  font-family: 'Canaro';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#nossaequipetexto p{
+  font-family: 'Segoe';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Area nosso espaço*/
+#nossoespaco{
+  color: #575756;
+  font-family: 'Canaro';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#nossoespaco p {
+  font-family: 'Segoe';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact h2{
+  font-family: 'Canaro';
+}
+
+.contact {
+  font-family: 'Segoe';
+}
+
+.swiper {
+  height: 10%;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+@media (max-width: 20%) {
+  .swiper {
+    height: 50%;
+  }
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.footer{
+  padding-top: 40px;
+  background-color: #575756;
+}
+
+.footer .social {
+  text-align: center;
+  color: #4b4c4d;
+}
+
+.footer .social a{
+  font-size: 19px;
+  color: inherit;
+  display: inline-block;
+  text-align: center;
+  margin-right: 7px;
+  color: #fff;
+}
+
+.footer .social a:last-of-type {
+  margin-right: 0;
+}
+
+.footer .social a:hover{
+  color: #D5D5D5;
+}
+
+.footer p {
+  font-size: 15px;
+  color: #fff;
+}
+
+.footer ul {
+  margin-top: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+  font-size: 15px;
+  color: #fff;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+  text-align: center;  
+}
+
+.quem-somos {
+  padding-top: 30px;
+}
+
+.quem-somos .text h4 {
+  font-size: 20px;
+}
+
+.quem-somos .text p {
+  line-height: 20px;
+}
+
+.nossa-equipe {
+  padding-bottom: 20px;
+}
+
+.nosso-espaco {
+  padding-top: 80px;
+  background-color: #FBFBFB;
+  background-image: url(assets/img/img-area.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nosso-espaco #slides {
+  position: relative;
+}
+
+.nosso-espaco #slides::before {
+  content: "";
+  position: absolute;
+  width: 1920px;
+  height: 60px;
+  left: -1920px;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact .social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .social button {
+  background-color: #FBFBFB!important;
+  color: #E42313;
+  border: 0;
+  outline: none;
+  width: 145px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact .social button:last-of-type {
+  margin-right: 0;
+}
+
+.contact .social button p {
+  margin-left: 3px;
+  margin-bottom: 0;
+}
+
+.contact .box {
+  padding: 30px;
+  background-color: #FBFBFB;
+  box-shadow: 7px 7px 15px #9C9C9C29;
+  border-radius: 10px;
+}
+
+.contact .box input,
+.contact .box select,
+.contact .box textarea {
+  background-color: #F4F4F4;
+}
+
+.contact .box .btn-send {
+  background: #E42313 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
